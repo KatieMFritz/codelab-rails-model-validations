@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(version: 20151216212807) do
 
   create_table "books", force: :cascade do |t|
-    t.string   "title",      default: "",    null: false
+    t.string   "title",                      null: false
     t.integer  "rating"
     t.boolean  "ebook",      default: false, null: false
     t.datetime "created_at",                 null: false
